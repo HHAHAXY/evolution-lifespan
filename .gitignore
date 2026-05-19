@@ -1,0 +1,39 @@
+# Raw data
+data/raw/
+data/interim/
+*.tsv
+*.csv
+*.txt
+*.fa
+*.fasta
+*.maf
+*.hal
+*.bam
+*.vcf
+*.vcf.gz
+
+# Allow tracked metadata/text
+!README.md
+!requirements.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Outputs
+data/processed/
+results/
+figures/
+*.log
