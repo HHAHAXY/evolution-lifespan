@@ -25,3 +25,17 @@ docker run --rm -it -v "$PWD":/workspace evolution-lifespan \
 ```
 
 The script writes `data/processed/lifespan_traits.tsv` with one row per Zoonomia species matched to AnAge.
+
+## Zoonomia / TOGA data download
+
+- **Cactus HAL alignment:** `447-mammalian-2022v1.hal`  
+  https://cgl.gi.ucsc.edu/data/cactus/447-mammalian-2022v1.hal
+
+- **Cactus tree:** `447-mammalian-2022v1.nh`  
+  https://cgl.gi.ucsc.edu/data/cactus/
+
+- **TOGA human hg38 reference:** `human_hg38_reference`  
+  https://genome.senckenberg.de/download/TOGA/human_hg38_reference/
+
+- **TOGA codon alignments:** `human_hg38_reference/MultipleCodonAlignments/`  
+  https://genome.senckenberg.de/download/TOGA/human_hg38_reference/MultipleCodonAlignments/
